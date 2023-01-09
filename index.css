@@ -174,7 +174,7 @@ a{
 
 .navbar::after{
     content: "";
-    background: url('about.jpg') no-repeat center/cover;
+    background: url('index-bcg.jpg') no-repeat center/cover;
     position: absolute;
     top: 0px;
     left: 0px;

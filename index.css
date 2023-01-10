@@ -300,6 +300,8 @@ a{
     .one,.two,.three,.four{
         width: 60vw;
         margin: 20px 40px;
+        padding: 5px;
+        flex-direction: column;
     }
 
 }

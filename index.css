@@ -130,6 +130,9 @@ a{
     margin: 0%;
 }
 
+
+/* navbar */
+
 .logo{
     font-family: 'Amita';
     font-size: 22px;
@@ -194,11 +197,77 @@ a{
 }
 
 
+
+/* bcg material */
+
+.bcg-para{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+}
+.bcg-para h1{
+    font-size: 80px;
+}
+.bcg-para h3{
+    font-size: 40px;
+}
+
+
+
+/* body section */
+
+.body-main{
+    position: absolute;
+    top: 100vh;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* credentials */
+
+.one,.two,.three,.four{
+    display: flex;
+    align-items: center;
+    flex: 40%;
+    margin: 50px;
+    background-color: rgb(233, 233, 233);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1100px){
+
+    /* navbar */
+
     .navbar {
       flex-direction: column;
       flex-wrap: wrap;
-      height: 250px;
+      height: 40vh;
     }
 
     .hader{
@@ -210,6 +279,27 @@ a{
     .nav-btn{
         margin: 0%;
         margin-top: 10px;
-        /* margin-top: 20px; */
     }
+
+
+    /* bcg material */
+
+    .bcg-para{
+        top: 50vh;
+    }
+    .bcg-para h1{
+        font-size: 32px;
+    }
+    .bcg-para h3{
+        font-size: 19px;
+    }
+
+
+    /* body section */
+
+    .one,.two,.three,.four{
+        width: 60vw;
+        margin: 20px 40px;
+    }
+
 }

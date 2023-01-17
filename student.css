@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    text-align: center;
+    font-family: 'Amita';
+    font-size: 22px;
+    margin-left: 20px;
+}
+.first-logo{
+    color: red;
+}
+.last-logo{
+    color: blue;
+}
+.stud{
+    margin-top: 50px;
+}
+.stud-img{
+    height: 150px;
+    border-radius: 50%;
+}

@@ -159,6 +159,19 @@ p{
     padding: 5px 20px;
 }
 
+.animate{
+    animation: example 4s infinite;
+    background-color: transparent;
+}
+
+@keyframes example {
+    0%{color: red;}
+    25%{color:white;}
+    15%{color: yellow;}
+    50%{color: navy;}
+    100%{color: orangered;}
+}
+
 .hader a:hover{
     background-color: aqua;
     border-radius: 10px;
@@ -295,6 +308,9 @@ p{
         flex-wrap: wrap;
         justify-content: center;
     }
+
+
+
     .nav-btn{
         margin: 0%;
         margin-top: 10px;

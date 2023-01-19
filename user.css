@@ -2,7 +2,15 @@
     margin: 0%;
     padding: 0%;
 }
-
+.parent-btn{
+    padding: 15px 30px;
+    background-color: rgb(179, 179, 179);
+    border-radius: 10px;
+    border: black solid 2px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
 .hero{
     display: flex;
     flex-direction: column;
@@ -25,6 +33,7 @@
     margin-top: 50px;
 }
 .stud-img{
+    border: 2px solid rgb(153, 153, 153);
     height: 150px;
     border-radius: 50%;
 }
